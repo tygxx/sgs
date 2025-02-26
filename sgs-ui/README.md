@@ -2,10 +2,10 @@
 
 ```bash
 # 克隆项目
-git clone https://gitee.com/y_project/Sgs-Vue
+git clone https://gitee.com/y_project/RuoYi-Vue
 
 # 进入项目目录
-cd sgs-ui
+cd ruoyi-ui
 
 # 安装依赖
 npm install

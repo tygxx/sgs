@@ -1,6 +1,6 @@
 @echo off
 echo.
-echo [息] Web蹋dist募
+echo [信息] 打包Web工程，生成dist文件。
 echo.
 
 %~d0

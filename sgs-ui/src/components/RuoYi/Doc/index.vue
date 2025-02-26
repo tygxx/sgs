@@ -6,10 +6,10 @@
 
 <script>
 export default {
-  name: 'SgsDoc',
+  name: 'RuoYiDoc',
   data() {
     return {
-      url: 'http://doc.sgs.vip/sgs-vue'
+      url: 'http://doc.ruoyi.vip/ruoyi-vue'
     }
   },
   methods: {

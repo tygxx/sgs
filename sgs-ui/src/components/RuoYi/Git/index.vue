@@ -6,10 +6,10 @@
 
 <script>
 export default {
-  name: 'SgsGit',
+  name: 'RuoYiGit',
   data() {
     return {
-      url: 'https://gitee.com/y_project/Sgs-Vue'
+      url: 'https://gitee.com/y_project/RuoYi-Vue'
     }
   },
   methods: {

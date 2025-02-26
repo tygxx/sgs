@@ -1,4 +1,4 @@
-import { parseTime } from './sgs'
+import { parseTime } from './ruoyi'
 
 /**
  * 表格时间格式化

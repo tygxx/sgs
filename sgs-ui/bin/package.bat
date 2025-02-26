@@ -1,6 +1,6 @@
 @echo off
 echo.
-echo [息] 装Web蹋node_modules募
+echo [信息] 安装Web工程，生成node_modules文件。
 echo.
 
 %~d0

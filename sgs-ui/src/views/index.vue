@@ -3,7 +3,7 @@
     <el-row :gutter="20">
       <el-col :sm="24" :lg="24">
         <blockquote class="text-warning" style="font-size: 14px">
-          阿里云服务器折扣区<el-link href="http://aly.sgs.vip" type="primary" target="_blank">☛☛点我进入☚☚</el-link> &nbsp;&nbsp;&nbsp; 腾讯云服务器秒杀区<el-link href="http://txy.sgs.vip" type="primary" target="_blank">☛☛点我进入☚☚</el-link>
+          阿里云服务器折扣区<el-link href="http://aly.ruoyi.vip" type="primary" target="_blank">☛☛点我进入☚☚</el-link> &nbsp;&nbsp;&nbsp; 腾讯云服务器秒杀区<el-link href="http://txy.ruoyi.vip" type="primary" target="_blank">☛☛点我进入☚☚</el-link>
         </blockquote>
         <hr />
       </el-col>
@@ -26,14 +26,14 @@
             size="mini"
             icon="el-icon-cloudy"
             plain
-            @click="goTarget('https://gitee.com/y_project/Sgs-Vue')"
+            @click="goTarget('https://gitee.com/y_project/RuoYi-Vue')"
             >访问码云</el-button
           >
           <el-button
             size="mini"
             icon="el-icon-s-home"
             plain
-            @click="goTarget('http://sgs.vip')"
+            @click="goTarget('http://ruoyi.vip')"
             >访问主页</el-button
           >
         </p>
@@ -83,9 +83,9 @@
           <div class="body">
             <p>
               <i class="el-icon-s-promotion"></i> 官网：<el-link
-                href="http://www.sgs.vip"
+                href="http://www.ruoyi.vip"
                 target="_blank"
-                >http://www.sgs.vip</el-link
+                >http://www.ruoyi.vip</el-link
               >
             </p>
             <p>
