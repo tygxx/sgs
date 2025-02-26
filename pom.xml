@@ -3,15 +3,15 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	
+
     <groupId>com.sgs</groupId>
     <artifactId>sgs</artifactId>
     <version>3.8.9</version>
 
     <name>sgs</name>
     <url>http://www.sgs.vip</url>
-    <description>若依管理系统</description>
-    
+    <description>SGS管理系统</description>
+
     <properties>
         <sgs.version>3.8.9</sgs.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -171,6 +171,13 @@
                 <version>${sgs.version}</version>
             </dependency>
 
+            <!-- 业务模块-->
+            <dependency>
+                <groupId>com.sgs</groupId>
+                <artifactId>sgs-busi</artifactId>
+                <version>${sgs.version}</version>
+            </dependency>
+
             <!-- 系统模块-->
             <dependency>
                 <groupId>com.sgs</groupId>
@@ -195,6 +202,7 @@
         <module>sgs-quartz</module>
         <module>sgs-generator</module>
         <module>sgs-common</module>
+        <module>sgs-busi</module>
     </modules>
     <packaging>pom</packaging>
 

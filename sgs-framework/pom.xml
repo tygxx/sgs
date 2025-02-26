@@ -53,10 +53,10 @@
             <artifactId>oshi-core</artifactId>
         </dependency>
 
-        <!-- 系统模块-->
+        <!-- 业务模块-->
         <dependency>
             <groupId>com.sgs</groupId>
-            <artifactId>sgs-system</artifactId>
+            <artifactId>sgs-busi</artifactId>
         </dependency>
 
     </dependencies>
